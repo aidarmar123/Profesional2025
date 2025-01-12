@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище RoatOfRussiaModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Absence">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExceptionDate" Type="date" Nullable="false" />
+    <Property Name="EmployeeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cabinet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="ParentDepartment" Type="int" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="DirectorId" Type="int" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Patronic" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Birthday" Type="date" Nullable="false" />
+    <Property Name="WorkPhone" Type="char" MaxLength="18" Nullable="false" />
+    <Property Name="CabinetId" Type="int" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PositionId" Type="int" Nullable="false" />
+    <Property Name="HomePhone" Type="char" MaxLength="18" />
+  </EntityType>
+  <EntityType Name="Event">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TypeEventId" Type="int" Nullable="false" />
+    <Property Name="StatusEventId" Type="int" Nullable="false" />
+    <Property Name="DateTimeEvent" Type="datetime" Nullable="false" />
+    <Property Name="ShortDescription" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EventEmployee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeId" Type="int" Nullable="false" />
+    <Property Name="EventId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EventResponsiblePerson">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EventId" Type="int" Nullable="false" />
+    <Property Name="EmployeeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Material">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EventId" Type="int" Nullable="false" />
+    <Property Name="Data" Type="varbinary(max)" Nullable="false" />
+    <Property Name="DateEdit" Type="date" Nullable="false" />
+    <Property Name="DateApproval" Type="date" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="SectionId" Type="int" Nullable="false" />
+    <Property Name="AuthorId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Position">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="DepartmentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SectionMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StatusEvent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StatusMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TypeEvent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TypeMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vacation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="ExceptionDate" Type="date" Nullable="false" />
+    <Property Name="EmployeeId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Absence_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Absence" Type="Self.Absence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Absence">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Department_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Department" Type="Self.Department" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Department">
+        <PropertyRef Name="DirectorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Cabinet">
+    <End Role="Cabinet" Type="Self.Cabinet" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cabinet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="CabinetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Position">
+    <End Role="Position" Type="Self.Position" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Position">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="PositionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_StatusEvent">
+    <End Role="StatusEvent" Type="Self.StatusEvent" Multiplicity="1" />
+    <End Role="Event" Type="Self.Event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusEvent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Event">
+        <PropertyRef Name="StatusEventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_TypeEvent">
+    <End Role="TypeEvent" Type="Self.TypeEvent" Multiplicity="1" />
+    <End Role="Event" Type="Self.Event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeEvent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Event">
+        <PropertyRef Name="TypeEventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventEmployee_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="EventEmployee" Type="Self.EventEmployee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventEmployee">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventEmployee_Event">
+    <End Role="Event" Type="Self.Event" Multiplicity="1" />
+    <End Role="EventEmployee" Type="Self.EventEmployee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventEmployee">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventResponsiblePerson_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="EventResponsiblePerson" Type="Self.EventResponsiblePerson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventResponsiblePerson">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventResponsiblePerson_Event">
+    <End Role="Event" Type="Self.Event" Multiplicity="1" />
+    <End Role="EventResponsiblePerson" Type="Self.EventResponsiblePerson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventResponsiblePerson">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Material_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Material_Event">
+    <End Role="Event" Type="Self.Event" Multiplicity="1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Material_SectionMaterial">
+    <End Role="SectionMaterial" Type="Self.SectionMaterial" Multiplicity="1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SectionMaterial">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="SectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Material_StatusMaterial">
+    <End Role="StatusMaterial" Type="Self.StatusMaterial" Multiplicity="1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusMaterial">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Material_TypeMaterial">
+    <End Role="TypeMaterial" Type="Self.TypeMaterial" Multiplicity="1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeMaterial">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Position_Department">
+    <End Role="Department" Type="Self.Department" Multiplicity="1" />
+    <End Role="Position" Type="Self.Position" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Position">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vacation_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Vacation" Type="Self.Vacation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vacation">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище RoatOfRussiaModelContainer">
+    <EntitySet Name="Absence" EntityType="Self.Absence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cabinet" EntityType="Self.Cabinet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Event" EntityType="Self.Event" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EventEmployee" EntityType="Self.EventEmployee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EventResponsiblePerson" EntityType="Self.EventResponsiblePerson" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Material" EntityType="Self.Material" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Position" EntityType="Self.Position" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SectionMaterial" EntityType="Self.SectionMaterial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StatusEvent" EntityType="Self.StatusEvent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StatusMaterial" EntityType="Self.StatusMaterial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypeEvent" EntityType="Self.TypeEvent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypeMaterial" EntityType="Self.TypeMaterial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vacation" EntityType="Self.Vacation" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Absence_Employee" Association="Self.FK_Absence_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Absence" EntitySet="Absence" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Department_Employee" Association="Self.FK_Department_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Department" EntitySet="Department" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Cabinet" Association="Self.FK_Employee_Cabinet">
+      <End Role="Cabinet" EntitySet="Cabinet" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Position" Association="Self.FK_Employee_Position">
+      <End Role="Position" EntitySet="Position" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_StatusEvent" Association="Self.FK_Event_StatusEvent">
+      <End Role="StatusEvent" EntitySet="StatusEvent" />
+      <End Role="Event" EntitySet="Event" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_TypeEvent" Association="Self.FK_Event_TypeEvent">
+      <End Role="TypeEvent" EntitySet="TypeEvent" />
+      <End Role="Event" EntitySet="Event" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventEmployee_Employee" Association="Self.FK_EventEmployee_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="EventEmployee" EntitySet="EventEmployee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventEmployee_Event" Association="Self.FK_EventEmployee_Event">
+      <End Role="Event" EntitySet="Event" />
+      <End Role="EventEmployee" EntitySet="EventEmployee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventResponsiblePerson_Employee" Association="Self.FK_EventResponsiblePerson_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="EventResponsiblePerson" EntitySet="EventResponsiblePerson" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventResponsiblePerson_Event" Association="Self.FK_EventResponsiblePerson_Event">
+      <End Role="Event" EntitySet="Event" />
+      <End Role="EventResponsiblePerson" EntitySet="EventResponsiblePerson" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Material_Employee" Association="Self.FK_Material_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Material_Event" Association="Self.FK_Material_Event">
+      <End Role="Event" EntitySet="Event" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Material_SectionMaterial" Association="Self.FK_Material_SectionMaterial">
+      <End Role="SectionMaterial" EntitySet="SectionMaterial" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Material_StatusMaterial" Association="Self.FK_Material_StatusMaterial">
+      <End Role="StatusMaterial" EntitySet="StatusMaterial" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Material_TypeMaterial" Association="Self.FK_Material_TypeMaterial">
+      <End Role="TypeMaterial" EntitySet="TypeMaterial" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Position_Department" Association="Self.FK_Position_Department">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="Position" EntitySet="Position" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vacation_Employee" Association="Self.FK_Vacation_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Vacation" EntitySet="Vacation" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
