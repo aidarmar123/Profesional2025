@@ -1,0 +1,139 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web;
+using System.Web.Http;
+using System.Web.Http.Description;
+using RoatOfRussiaApi.Models;
+
+
+
+namespace RoatOfRussiaApi.Controllers
+{
+    public class EventsController : ApiController
+    {
+        private RoatOfRussiaEntities db = new RoatOfRussiaEntities();
+
+        [HttpGet]
+        [Route("api/Events/install/{Id}")]
+
+        public HttpResponse InstallFile(int Id)
+        {
+           
+            var _event = db.Event.FirstOrDefault(e => e.Id == Id);
+            
+            var page = new System.Web.UI.Page();
+            page.Response.AddHeader("Content-Desposition", $"attachment; filename={_event.Name}");
+            page.Response.BinaryWrite(new byte[0]);
+            page.Response.End();
+
+            return page.Response;
+        }
+
+
+        // GET: api/Events
+        public IQueryable<Event> GetEvent()
+        {
+            return db.Event;
+        }
+
+        // GET: api/Events/5
+        [ResponseType(typeof(Event))]
+        public IHttpActionResult GetEvent(int id)
+        {
+            Event @event = db.Event.Find(id);
+            if (@event == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(@event);
+        }
+
+        // PUT: api/Events/5
+        [ResponseType(typeof(void))]
+        public IHttpActionResult PutEvent(int id, Event @event)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (id != @event.Id)
+            {
+                return BadRequest();
+            }
+
+            db.Entry(@event).State = EntityState.Modified;
+
+            try
+            {
+                db.SaveChanges();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!EventExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return StatusCode(HttpStatusCode.NoContent);
+        }
+
+        // POST: api/Events
+        [ResponseType(typeof(Event))]
+        public IHttpActionResult PostEvent(Event @event)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            db.Event.Add(@event);
+            db.SaveChanges();
+
+            return CreatedAtRoute("DefaultApi", new { id = @event.Id }, @event);
+        }
+
+        // DELETE: api/Events/5
+        [ResponseType(typeof(Event))]
+        public IHttpActionResult DeleteEvent(int id)
+        {
+            Event @event = db.Event.Find(id);
+            if (@event == null)
+            {
+                return NotFound();
+            }
+
+            db.Event.Remove(@event);
+            db.SaveChanges();
+
+            return Ok(@event);
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private bool EventExists(int id)
+        {
+            return db.Event.Count(e => e.Id == id) > 0;
+        }
+    }
+}
