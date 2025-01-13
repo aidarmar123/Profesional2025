@@ -1,0 +1,42 @@
+﻿@rendermode InteractiveServer
+
+<div class="header">
+    <img  src="/Logo.svg" width="100"/>
+    <form class="search ">
+        
+            <input @oninput="Ter" @bind="SearchText" />
+       
+    </form>
+</div>
+
+@code {
+    public string? SearchText{ get; set; }
+    public void Ter(ChangeEventArgs e)
+    {
+        SearchText = e.Value?.ToString() ?? "";
+        Console.WriteLine(SearchText);
+    }
+}
+
+<style scoped>
+    img{
+        margin:5px;
+    }
+    input{
+        width:100%;
+        
+    }
+    .header{
+        display:flex;
+        width:100%;
+        background-color:lightgreen
+    }
+    .search{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:10px;
+        width:100%;
+        
+    }
+</style>

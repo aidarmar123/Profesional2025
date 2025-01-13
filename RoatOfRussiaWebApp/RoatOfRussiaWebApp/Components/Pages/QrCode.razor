@@ -1,0 +1,33 @@
+﻿@page "/qrcode/{Id:int}"
+@using Service;
+@using Models;
+@rendermode InteractiveServer
+@using QRCoder
+<img src="@qrcodeText" width="250"/>
+
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    public string qrcodeText = "";
+    protected override async Task OnInitializedAsync()
+    {
+        Employee employee = await NetManager.Get<Employee>($"api/Employees/{Id}");
+        var qrGenerator = new QRCodeGenerator();
+        var vcardtext = $"BEGIN:VCARD \nVERSION:3.0\nN:{employee.Name}\nFN: {employee.Surname}\nORG: Дороги России\nTITLE:{employee.Position.Name}\nTEL; WORK; VOICE: {employee.WorkPhone}\nTEL; CELL: {employee.HomePhone}\nEMAIL; WORK; INTERNET:{employee.Email}\nEND:VCARD";
+        var qrData = qrGenerator.CreateQrCode(vcardtext, QRCodeGenerator.ECCLevel.L);
+
+
+
+        using (var qrcode = new PngByteQRCode(qrData))
+        {
+            var qrBytes = qrcode.GetGraphic(20);
+            qrcodeText = $"data:image/png;base64,{Convert.ToBase64String(qrBytes)}";
+        }
+    }
+}
+
+
+
+

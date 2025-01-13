@@ -1,0 +1,52 @@
+﻿@page "/"
+@using Models
+@using Service
+
+
+<PageTitle>Home</PageTitle>
+<RoatOfRussiaWebApp.Components.Layout.HeaderLayout></RoatOfRussiaWebApp.Components.Layout.HeaderLayout>
+@if (employees == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h2>Сотрудники</h2>
+    <div class="employees">
+        @foreach (var employee in employees)
+        {
+
+            <RoatOfRussiaWebApp.Components.Layout.EmployeeLayout employee="@employee"></RoatOfRussiaWebApp.Components.Layout.EmployeeLayout>
+        }
+
+    </div>
+    <div class="events">
+        <h2>События</h2>
+        <div>
+            @foreach (var _event in events)
+            {
+                <RoatOfRussiaWebApp.Components.Layout.EventLayout _event="_event"></RoatOfRussiaWebApp.Components.Layout.EventLayout>
+            }
+        </div>
+    </div>
+
+}
+
+@code {
+    public List<Employee> employees;
+    public List<Event> events;
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await NetManager.Get<List<Employee>>("api/Employees");
+        events = await NetManager.Get<List<Event>>("api/Events");
+    }
+}
+<style scoped>
+    .employees {
+        display: flex;
+    }
+
+    .events {
+        width: 33%
+    }
+</style>

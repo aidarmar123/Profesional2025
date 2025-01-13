@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RoatOfRussiaWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RoatOfRussiaWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\Logo.svg",
+      "PackagePath": "staticwebassets\\Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\assets\\Logo.png",
+      "PackagePath": "staticwebassets\\assets\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RoatOfRussiaWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RoatOfRussiaWebApp.props",
+      "PackagePath": "build\\RoatOfRussiaWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RoatOfRussiaWebApp.props",
+      "PackagePath": "buildMultiTargeting\\RoatOfRussiaWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RoatOfRussiaWebApp.props",
+      "PackagePath": "buildTransitive\\RoatOfRussiaWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

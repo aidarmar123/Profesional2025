@@ -1,0 +1,72 @@
+﻿@using Models
+@using System.IO
+@using System.Text
+@inject IJSRuntime JS
+@rendermode InteractiveServer
+
+<div class="card custom-card">
+    <h4>@_event.Name</h4>
+    <p>@_event.ShortDescription</p>
+    <div>
+        <div class="date">
+            @if (fileURL == null)
+            {
+                <p>Loading</p>
+            }
+            else
+            {
+
+                <a role="button" href="@fileURL" download='@_event.Name .ics'>📆</a>
+            }
+            <p>@_event.DateTimeEvent.ToString("d")</p>
+        </div>
+        <div class="author">
+            <p>a</p>
+        </div>
+    </div>
+</div>
+
+@code {
+        [Parameter]
+        public Event? _event { get; set; }
+
+    private string? fileURL;
+    protected override async Task OnInitializedAsync()
+    {
+        await GenerateFile();
+    }
+
+    private async Task GenerateFile()
+    {
+
+
+        var content = $"BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:{_event.Name}\nDTSTART:{_event.DateTimeEvent.ToString("yyyyMMddTHHmmss")}\nDTEND:{_event.DateTimeEvent.ToString("yyyyMMddTHHmmss")}\nDTSTAMP:{_event.DateTimeEvent.ToString("yyyyMMddTHHmss")}\nUID:{_event.Id}\nDESCRIPTION:{_event.ShortDescription}\nLOCATION:{_event.ShortDescription}\nORGANIZER:{_event.ShortDescription}\nSTATUS:CONFIRMED\nPRIORITY:0\nEND:VEVENT\nEND:VCALENDAR";
+        
+        var bytes = Encoding.UTF8.GetBytes(content);
+
+        var base64 = Convert.ToBase64String(bytes);
+
+        fileURL = $"data:text/plain;base64,{base64}";
+
+
+
+    }
+
+
+}
+<style scoped>
+    .custom-card {
+        margin: 10px;
+        padding: 5px;
+        background-color: green;
+    }
+
+    .date {
+        float: left;
+        display: flex;
+    }
+
+    .author {
+        float: right;
+    }
+</style>
