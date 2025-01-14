@@ -20,21 +20,6 @@ namespace RoatOfRussiaApi.Controllers
     {
         private RoatOfRussiaEntities db = new RoatOfRussiaEntities();
 
-        [HttpGet]
-        [Route("api/Events/install/{Id}")]
-
-        public HttpResponse InstallFile(int Id)
-        {
-           
-            var _event = db.Event.FirstOrDefault(e => e.Id == Id);
-            
-            var page = new System.Web.UI.Page();
-            page.Response.AddHeader("Content-Desposition", $"attachment; filename={_event.Name}");
-            page.Response.BinaryWrite(new byte[0]);
-            page.Response.End();
-
-            return page.Response;
-        }
 
 
         // GET: api/Events

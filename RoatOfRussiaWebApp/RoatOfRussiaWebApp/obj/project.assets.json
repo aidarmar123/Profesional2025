@@ -92,11 +92,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
       "projectName": "RoatOfRussiaWebApp",
-      "projectPath": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
+      "projectPath": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
       "packagesPath": "C:\\Users\\Aidar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\",
+      "outputPath": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

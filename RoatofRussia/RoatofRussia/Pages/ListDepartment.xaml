@@ -9,7 +9,7 @@
       Title="ListDepartment">
    
     <StackPanel>
-        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalAlignment="Center">
             <Grid  x:Name="MainCanvas">
                 <Grid.RowDefinitions>
                     <RowDefinition/>

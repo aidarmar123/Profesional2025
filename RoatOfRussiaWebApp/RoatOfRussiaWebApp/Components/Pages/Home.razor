@@ -1,10 +1,18 @@
 ﻿@page "/"
 @using Models
 @using Service
+@using System.Xml.Linq;
+@rendermode InteractiveServer
 
 
 <PageTitle>Home</PageTitle>
-<RoatOfRussiaWebApp.Components.Layout.HeaderLayout></RoatOfRussiaWebApp.Components.Layout.HeaderLayout>
+<header class="header">
+    <img src="/Logo.svg" width="100" />
+
+    <form class="search">
+        <input @oninput="SearchContent" />
+    </form>
+</header>
 @if (employees == null)
 {
     <p>Loading...</p>
@@ -12,20 +20,54 @@
 else
 {
     <h2>Сотрудники</h2>
-    <div class="employees">
-        @foreach (var employee in employees)
+    <div class="employee">
+        @if (employees.Count > 0)
         {
-
-            <RoatOfRussiaWebApp.Components.Layout.EmployeeLayout employee="@employee"></RoatOfRussiaWebApp.Components.Layout.EmployeeLayout>
+            @foreach (var employee in employees)
+            {
+                <RoatOfRussiaWebApp.Components.Layout.EmployeeLayout employee="@employee"></RoatOfRussiaWebApp.Components.Layout.EmployeeLayout>
+            }
+        }
+        else
+        {
+            <p>Нет данных</p>
         }
 
     </div>
-    <div class="events">
-        <h2>События</h2>
-        <div>
-            @foreach (var _event in events)
+    <div class="flex">
+        <div class="events">
+            <div>
+                <RoatOfRussiaWebApp.Components.Layout.CalendarLayout employees="employees" events="events" workDay="workingCalendars"></RoatOfRussiaWebApp.Components.Layout.CalendarLayout>
+            </div>
+            <h2>События</h2>
+            <div>
+                @if (events.Count > 0)
+                {
+                    @foreach (var _event in events)
+                    {
+                        <RoatOfRussiaWebApp.Components.Layout.EventLayout _event="_event"></RoatOfRussiaWebApp.Components.Layout.EventLayout>
+                    }
+                }
+                else
+                {
+                    <p>Нет данных</p>
+                }
+            </div>
+        </div>
+        <div class="news">
+            @if (news.Count > 0)
             {
-                <RoatOfRussiaWebApp.Components.Layout.EventLayout _event="_event"></RoatOfRussiaWebApp.Components.Layout.EventLayout>
+                @foreach (var _new in news)
+                {
+                    <div class="cardNews">
+                        <RoatOfRussiaWebApp.Components.Layout.NewLayout newsItem="_new"></RoatOfRussiaWebApp.Components.Layout.NewLayout>
+
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Нет данных</p>
             }
         </div>
     </div>
@@ -33,20 +75,102 @@ else
 }
 
 @code {
+    private string SearchText = "";
+
     public List<Employee> employees;
     public List<Event> events;
+    public List<NewsItem> news;
+    public List<WorkingCalendar> workingCalendars;
     protected override async Task OnInitializedAsync()
+    {
+        await GetData();
+    }
+    private async Task GetData()
     {
         employees = await NetManager.Get<List<Employee>>("api/Employees");
         events = await NetManager.Get<List<Event>>("api/Events");
+        workingCalendars = await NetManager.Get<List<WorkingCalendar>>("api/WorkingCalendars");
+        XDocument document = XDocument.Load(@"C:\Users\Aidar\Desktop\Profesional2025\RoatOfRussiaWebApp\RoatOfRussiaWebApp\Data\news_response.xml");
+        news = document.Descendants("item").Select(item => new NewsItem()
+            {
+                title = (string)item.Element("title"),
+                image = (string)item.Element("image"),
+                description = (string)item.Element("description")
+
+            }).ToList();
+    }
+    private async void SearchContent(ChangeEventArgs e)
+    {
+        SearchText = e.Value?.ToString() ?? "";
+        if (SearchText != "")
+        {
+            events = events.Where(x => x.Find.Contains(SearchText)).ToList();
+            employees = employees.Where(x => x.Find.Contains(SearchText)).ToList();
+            news = news.Where(x => x.Find.Contains(SearchText)).ToList();
+        }
+        else
+        {
+            await GetData();
+        }
     }
 }
 <style scoped>
-    .employees {
+    .header {
+        display: flex;
+        background-color: #e1f4c8;
+        width: 100%
+    }
+
+    input {
+        width: 100%;
+    }
+
+
+
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 100%;
+    }
+
+
+
+
+
+    .employee {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .news{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .cardNews{
+        width:50%;
+    }
+
+    .flex {
         display: flex;
     }
 
-    .events {
-        width: 33%
+    @@media only screen and (max-width : 960px){
+        div{
+            font-size:16px;
+        }
+        .calendar {
+            width:150px;
+        }
+
+        .cardNews {
+            width: 100%;
+        }
+        .imgNews{
+            width:100%
+            
+        }
+
     }
 </style>

@@ -1,27 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RoatOfRussiaWebApp.bundle.scp.css",
+      "Id": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RoatOfRussiaWebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\RoatOfRussiaWebApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\Logo.svg",
+      "Id": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\Logo.svg",
       "PackagePath": "staticwebassets\\Logo.svg"
     },
     {
-      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\app.css",
+      "Id": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\assets\\Logo.png",
+      "Id": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\assets\\Logo.png",
       "PackagePath": "staticwebassets\\assets\\Logo.png"
     },
     {
-      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\assets\\photoNews.jpg",
+      "PackagePath": "staticwebassets\\assets\\photoNews.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {

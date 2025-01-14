@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lfynd6yxXn1VclX7X8J1wckARYc6jKS4L6MkRxQwNno=",
+  "Hash": "zggOvabzUOhwDSraV/Fwz7EoErjEGx9jwwk9zfhvjnk=",
   "Source": "RoatOfRussiaWebApp",
   "BasePath": "_content/RoatOfRussiaWebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RoatOfRussiaWebApp\\wwwroot",
       "Source": "RoatOfRussiaWebApp",
-      "ContentRoot": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
       "BasePath": "_content/RoatOfRussiaWebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RoatOfRussiaWebApp.styles.css",
+      "Identity": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RoatOfRussiaWebApp.styles.css",
       "SourceId": "RoatOfRussiaWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RoatOfRussiaWebApp",
       "RelativePath": "RoatOfRussiaWebApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RoatOfRussiaWebApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RoatOfRussiaWebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RoatOfRussiaWebApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RoatOfRussiaWebApp.bundle.scp.css",
       "SourceId": "RoatOfRussiaWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RoatOfRussiaWebApp",
       "RelativePath": "RoatOfRussiaWebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RoatOfRussiaWebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RoatOfRussiaWebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\app.css",
       "SourceId": "RoatOfRussiaWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
       "BasePath": "_content/RoatOfRussiaWebApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\assets\\Logo.png",
+      "Identity": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\assets\\Logo.png",
       "SourceId": "RoatOfRussiaWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
       "BasePath": "_content/RoatOfRussiaWebApp",
       "RelativePath": "assets/Logo.png",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\Logo.png"
     },
     {
-      "Identity": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\assets\\photoNews.jpg",
       "SourceId": "RoatOfRussiaWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
+      "BasePath": "_content/RoatOfRussiaWebApp",
+      "RelativePath": "assets/photoNews.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\photoNews.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "RoatOfRussiaWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
       "BasePath": "_content/RoatOfRussiaWebApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "RoatOfRussiaWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
       "BasePath": "_content/RoatOfRussiaWebApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\Logo.svg",
+      "Identity": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\Logo.svg",
       "SourceId": "RoatOfRussiaWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\",
       "BasePath": "_content/RoatOfRussiaWebApp",
       "RelativePath": "Logo.svg",
       "AssetKind": "All",

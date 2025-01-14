@@ -1,0 +1,186 @@
+﻿@using Models
+@rendermode InteractiveServer
+
+<header class="headerCalendar">
+    <button @onclick="PrevoisMonth"> ⬅ </button>
+    <h3>@selectDate.ToString("Y")</h3>
+    <button @onclick="NextMonth"> ➡ </button>
+
+</header>
+<div class="calendar">
+
+
+    <table width="100%">
+        <thead>
+            <tr>
+                @foreach (var day in days)
+                {
+                    <th>
+                        <div class="theader">
+
+                            @day.ToString().ToCharArray()[0]
+
+                        </div>
+                    </th>
+
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 1; i < dayInMonth - 1;)
+            {
+                <tr>
+                    @for (int y = 0; y < 7; y++)
+                    {
+                        @if (i > dayInMonth)
+                        {
+                            <td></td>
+                        }
+                        else if (y < dayOfWeekMonth - 1 && i < 2)
+                        {
+                            <td></td>
+
+                        }
+                        else
+                        {
+
+                            <td>
+                                <div class="@(date.Day==i&&date.Month==selectDate.Month&&selectDate.Year==date.Year?"today":"")
+                                            @(workDay.FirstOrDefault(x=>x.ExceptionDate.Month==selectDate.Month && x.ExceptionDate.Day==i && x.IsWorkingDay==false)!=null?"holiday":"")
+                                            @(events.Where(x=>x.DateTimeEvent.Month==selectDate.Month && x.DateTimeEvent.Day == i).Count()>=5?
+"red":events.Where(x=>x.DateTimeEvent.Month==selectDate.Month && x.DateTimeEvent.Day == i).Count()==0?
+"":events.Where(x=>x.DateTimeEvent.Month==selectDate.Month && x.DateTimeEvent.Day == i).Count()<2?
+"green":"yellow")
+                                            day">
+                                    @if (employees.FirstOrDefault(e => e.Birthday.Month == selectDate.Month && e.Birthday.Day == i) != null)
+                                    {
+
+                                        <span title="@string.Join("\n", employees.Where(e => e.Birthday.Month == selectDate.Month && e.Birthday.Day == i).Select(x=>x.Surname).ToList())" class="@(true?i++:"")">🎂</span>
+                                    }
+                                    else
+                                    {
+                                        @(i++)
+
+                                    }
+
+                                </div>
+                            </td>
+
+
+
+                        }
+                    }
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    [Parameter]
+    public List<Event> events { get; set; }
+
+    [Parameter]
+    public List<Employee> employees { get; set; }
+
+    [Parameter]
+    public List<WorkingCalendar> workDay { get; set; }
+
+    public DateTime date = DateTime.Now;
+    public DateTime selectDate { get; set; }
+    public DayOfWeek[] days = (DayOfWeek[])Enum.GetValues(typeof(DayOfWeek));
+
+
+    private DateTime lastDayOfMonth{ get; set; }
+    public int dayOfWeekMonth{ get; set; }
+    public int dayInMonth{ get; set; }
+    protected override void OnInitialized()
+    {
+        selectDate = date;
+        var sunday = days[0];
+        for (int i = 0; i < days.Length; i++)
+        {
+            if (days.Length == i + 1)
+            {
+                days[i] = sunday;
+                continue;
+            }
+            days[i] = days[i + 1];
+        }
+        Create();
+
+    }
+    private void Create()
+    {
+       
+
+        dayInMonth = DateTime.DaysInMonth(selectDate.Year, selectDate.Month);
+        lastDayOfMonth = new DateTime(selectDate.Year, selectDate.Month, 1);
+        dayOfWeekMonth = (int)lastDayOfMonth.DayOfWeek;
+    }
+    public void PrevoisMonth()
+    {
+        selectDate = selectDate.AddMonths(-1);
+        Create();
+    }
+    private void NextMonth()
+    {
+        selectDate = selectDate.AddMonths(1);
+        Create();
+
+
+    }
+
+}
+
+<style scoped>
+    .headerCalendar{
+        display:flex;
+        background-color:green;
+        justify-content:center;
+    }
+    .headerCalendar button{
+        background-color:transparent;
+        border:0;
+        margin:5px,0;
+    }
+
+    .calendar {
+        display: flex;
+        width: 300px;
+        justify-content: center;
+    }
+
+    .day {
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .holiday {
+        color: red;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .green {
+        background-color: lime;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .today {
+        border: solid;
+        border-width: 2px;
+        border-color: black;
+    }
+
+    .theader {
+        margin: 5px;
+        text-align: center;
+    }
+</style>

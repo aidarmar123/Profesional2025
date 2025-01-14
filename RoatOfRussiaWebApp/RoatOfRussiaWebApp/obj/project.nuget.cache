@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S9u+jFdlrpU=",
+  "dgSpecHash": "Xp5syNh+A8U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aidar\\source\\repos\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
+  "projectFilePath": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aidar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Aidar\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512"

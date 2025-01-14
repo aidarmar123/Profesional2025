@@ -1,0 +1,36 @@
+﻿@rendermode InteractiveServer
+@using Models
+
+
+<div class="text">
+    <img class="imgNews" src="@newsItem.image" @onload='@(()=>newsItem.image="/assets/photoNews.jpg")' @onerror='@(()=>newsItem.image="/assets/photoNews.jpg")' />
+    
+    <div class="description">
+        <h3>@newsItem.title</h3>
+        <p>@newsItem.description</p>
+
+    </div>
+</div>
+@code {
+    [Parameter]
+    public NewsItem newsItem { get; set; }
+
+}
+<style scoped>
+    .text {
+        margin: 10px;
+    }
+
+    .imgNews{
+        width:100%
+    }
+    p {
+        overflow-wrap: break-word;
+    }
+
+    .description {
+        color: white;
+        padding: 5px;
+        background-color: #78b24b;
+    }
+</style>
