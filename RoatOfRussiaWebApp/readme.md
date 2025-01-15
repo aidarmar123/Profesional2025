@@ -83,7 +83,7 @@ private void GenerateFile()
  <a href="/qrcode/@employee.Id">💾</a>
 ```
 
-### В QrCodePage
+#### В QrCodePage
 
 ```razor
 @page "/qrcode/{Id:int}"
@@ -111,7 +111,9 @@ private void GenerateFile()
     }
 }
 ```
-Библиотека [QRCoder]("https://github.com/codebude/QRCoder/")
+
+
+Библиотека [QRCoder](https://github.com/codebude/QRCoder/)
 
 
 ### Календарь
