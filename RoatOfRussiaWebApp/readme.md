@@ -14,7 +14,7 @@ news = document.Descendants("item").Select(item => new NewsItem()
     }).ToList();
 ```
 ### Обработка ошибок на не полученое фото 
-```
+```razor
 @rendermode InteractiveServer
 <img class="imgNews" src="@newsItem.image" @onerror='@(()=>newsItem.image="/assets/photoNews.jpg")' />
 
