@@ -27,7 +27,7 @@ news = document.Descendants("item").Select(item => new NewsItem()
 ## События
 ### Скачивание файла .ics
 #### Важно
-```
+```razor
 <a role="button" href="@fileURL" download="@_event.Name .ics">📆</a>
 ```
 
@@ -41,7 +41,7 @@ private void GenerateFile()
 }
 ```
 
-```
+```razor
 <div class="date">
     @if (fileURL == null)
     {
@@ -79,13 +79,13 @@ private void GenerateFile()
 ### Генерация QrCode
 
 #### В EmployeeLayout
-```
+```razor
  <a href="/qrcode/@employee.Id">💾</a>
 ```
 
 ### В QrCodePage
 
-```
+```razor
 @page "/qrcode/{Id:int}"
 @using QRCoder
 
@@ -115,7 +115,7 @@ private void GenerateFile()
 
 
 ### Календарь
-```
+```razor
 @using Models
 @rendermode InteractiveServer
 
