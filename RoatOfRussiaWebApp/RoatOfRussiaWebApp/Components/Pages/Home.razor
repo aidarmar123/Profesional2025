@@ -3,6 +3,7 @@
 @using Service
 @using System.Xml.Linq;
 @rendermode InteractiveServer
+@inject NavigationManager nav
 
 
 <PageTitle>Home</PageTitle>
@@ -102,7 +103,7 @@ else
     private async void SearchContent(ChangeEventArgs e)
     {
         SearchText = e.Value?.ToString() ?? "";
-        if (SearchText != "")
+        if (!string.IsNullOrEmpty(SearchText.Trim()))
         {
             events = events.Where(x => x.Find.Contains(SearchText)).ToList();
             employees = employees.Where(x => x.Find.Contains(SearchText)).ToList();
@@ -110,7 +111,7 @@ else
         }
         else
         {
-            await GetData();
+            nav.NavigateTo(nav.Uri, true);
         }
     }
 }
@@ -161,7 +162,7 @@ else
             font-size:16px;
         }
         .calendar {
-            width:150px;
+            width:200px;
         }
 
         .cardNews {

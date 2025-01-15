@@ -1,0 +1,78 @@
+﻿<Window x:Class="RoatofRussia.Windows.CardEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoatofRussia.Windows"
+        mc:Ignorable="d"
+        Title="CardEmployee" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer>
+            <StackPanel>
+                <TextBlock Text="Имя"/>
+                <TextBox Text="{Binding Name}"/>
+                <TextBlock Text="Фамилия"/>
+                <TextBox Text="{Binding Surname}"/>
+                <TextBlock Text="Отчество"/>
+                <TextBox Text="{Binding Patronic}"/>
+                <TextBlock Text="Мобильный Телефон"/>
+                <TextBox Text="{Binding HomePhone}" MaxLength="20" x:Name="HomePhone"/>
+
+
+                <TextBlock Text="День рождения"/>
+                <DatePicker SelectedDate="{Binding Birthday}"/>
+
+                <TextBlock Text="Подразделение"/>
+                <ComboBox SelectedItem="{Binding Position.Department}"
+                          SelectionChanged="CbDeprtment_SelectionChanged"
+                          DisplayMemberPath="Name"
+                          x:Name="CbDeprtment"/>
+
+                <TextBlock Text="Должность"/>
+                <ComboBox SelectedItem="{Binding Position}"
+                          DisplayMemberPath="Name"
+                          x:Name="CbPosition"/>
+                <TextBlock Text="Руководитель"/>
+                <ComboBox SelectedItem="{Binding Position.Department.Employee}"
+                          DisplayMemberPath="FullName"
+                          x:Name="CbDirector"/>
+
+                <TextBlock Text="Мобильный Телефон"/>
+                <TextBox Text="{Binding WorkPhone}" MaxLength="20" x:Name="WorkPhone"/>
+
+                <TextBlock Text="Email"/>
+                <TextBox Text="{Binding Email}" x:Name="Email"/>
+
+
+                <TextBlock Text="Кабинет"/>
+                <ComboBox SelectedItem="{Binding Cabinet}"
+          DisplayMemberPath="FullName"
+          x:Name="CbCabinet"/>
+
+
+                <Button x:Name="Save"
+            Click="Save_Click"
+            Content="Сохраниить"/>
+            </StackPanel>
+        </ScrollViewer>
+        <StackPanel Grid.Column="1">
+            <TextBlock Text="Обучение"/>
+            <ListView ItemsSource="{Binding Events}"
+                      DisplayMemberPath="Name"/>
+             <TextBlock Text="Отгулы"/>
+            <ListView ItemsSource="{Binding Absence}"
+                      DisplayMemberPath="ExceptionDate"/>
+             <TextBlock Text="Отпуск"/>
+            <ListView ItemsSource="{Binding Vacation}"
+                      DisplayMemberPath="ExceptionDate"/>
+            
+            
+            
+        </StackPanel>
+    </Grid>
+</Window>

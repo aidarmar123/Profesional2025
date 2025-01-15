@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\models\\statusevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\models\\statusevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\eventlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\eventlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\newlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\newlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\calendarlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\calendarlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\qrcode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\qrcode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\employeelayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\employeelayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\roatofrussiawebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\roatofrussiawebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\newlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\newlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\models\\partials\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +71,12 @@
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\models\\partials\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\service\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\service\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -89,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\models\\statusmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\models\\statusmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\models\\statusevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\models\\statusevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\models\\sectionmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,14 +135,6 @@
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\models\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\roatofrussiawebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\roatofrussiawebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiawebapp\\roatofrussiawebapp\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{FF95299E-63D5-49C0-AC6A-4E748224D2A5}|RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj|solutionrelative:roatofrussiawebapp\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -154,11 +154,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "NewsItem.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Partials\\NewsItem.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Partials\\NewsItem.cs",
@@ -166,12 +166,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Partials\\NewsItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T15:05:39.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:05:39.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Partials\\Event.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Partials\\Event.cs",
@@ -179,12 +178,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Partials\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T15:03:50.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:03:50.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Partials\\Employee.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Partials\\Employee.cs",
@@ -192,12 +190,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Partials\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T15:02:02.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:02:02.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "StatusMaterial.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\StatusMaterial.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\StatusMaterial.cs",
@@ -205,12 +202,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\StatusMaterial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:17:06.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:17:06.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\_Imports.razor",
@@ -218,12 +214,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T08:30:59.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:30:59.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\App.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\App.razor",
@@ -231,77 +226,71 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T08:30:33.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:30:33.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\wwwroot\\app.css",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\wwwroot\\app.css",
               "RelativeToolTip": "RoatOfRussiaWebApp\\wwwroot\\app.css",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-14T09:51:15.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T09:51:15.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EventLayout.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\EventLayout.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Layout\\EventLayout.razor",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\EventLayout.razor",
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Layout\\EventLayout.razor",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwD8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T14:44:52.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T14:44:52.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EmployeeLayout.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\EmployeeLayout.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Layout\\EmployeeLayout.razor",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\EmployeeLayout.razor",
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Layout\\EmployeeLayout.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwCIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T15:02:53.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T15:02:53.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAkwCUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T08:37:19.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:37:19.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CalendarLayout.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\CalendarLayout.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Layout\\CalendarLayout.razor",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\CalendarLayout.razor",
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Layout\\CalendarLayout.razor",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAC8AAABzAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T10:35:41.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T10:35:41.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Pages\\Counter.razor",
@@ -309,12 +298,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Pages\\Counter.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T13:37:49.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T13:37:49.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Layout\\MainLayout.razor",
@@ -322,12 +310,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T08:30:08.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:30:08.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "NetManager.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Service\\NetManager.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Service\\NetManager.cs",
@@ -335,12 +322,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Service\\NetManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T11:14:11.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T11:14:11.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "TypeEvent.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\TypeEvent.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\TypeEvent.cs",
@@ -348,34 +334,31 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\TypeEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:17:13.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:17:13.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "NewLayout.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\NewLayout.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Layout\\NewLayout.razor",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\NewLayout.razor",
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Layout\\NewLayout.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T09:08:10.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T09:08:10.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "QrCode.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Pages\\QrCode.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Pages\\QrCode.razor",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Pages\\QrCode.razor",
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Pages\\QrCode.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T11:08:36.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T11:08:36.121Z"
             },
             {
               "$type": "Document",
@@ -387,12 +370,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Pages\\Error.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T08:37:24.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:37:24.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Position.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Position.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Position.cs",
@@ -400,12 +382,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Position.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:16:38.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:16:38.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "SectionMaterial.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\SectionMaterial.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\SectionMaterial.cs",
@@ -413,25 +394,24 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\SectionMaterial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:16:49.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:16:49.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 0,
               "Title": "StatusEvent.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\StatusEvent.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\StatusEvent.cs",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\StatusEvent.cs",
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\StatusEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T13:17:02.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "TypeMaterial.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\TypeMaterial.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\TypeMaterial.cs",
@@ -439,12 +419,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\TypeMaterial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:17:20.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:17:20.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Vacation.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Vacation.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Vacation.cs",
@@ -452,12 +431,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Vacation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:17:25.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:17:25.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "WorkingCalendar.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\WorkingCalendar.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\WorkingCalendar.cs",
@@ -465,12 +443,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\WorkingCalendar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:17:30.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:17:30.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Material.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Material.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Material.cs",
@@ -478,12 +455,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Material.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:16:33.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:16:33.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "EventResponsiblePerson.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\EventResponsiblePerson.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\EventResponsiblePerson.cs",
@@ -491,12 +467,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\EventResponsiblePerson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:16:28.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:16:28.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "EventEmployee.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\EventEmployee.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\EventEmployee.cs",
@@ -504,12 +479,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\EventEmployee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:16:21.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:16:21.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Department.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Department.cs",
@@ -517,12 +491,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:16:05.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:16:05.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Cabinet.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Cabinet.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Cabinet.cs",
@@ -530,12 +503,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Cabinet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:16:00.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:16:00.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Absence.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Models\\Absence.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Models\\Absence.cs",
@@ -543,12 +515,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Models\\Absence.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:15:45.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:15:45.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 10,
               "Title": "RoatOfRussiaWebApp.csproj",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
@@ -556,8 +527,7 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\RoatOfRussiaWebApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-13T11:13:57.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T11:13:57.752Z"
             },
             {
               "$type": "Document",
@@ -569,8 +539,7 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Layout\\NavMenu.razor.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-13T08:35:01.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:35:01.858Z"
             },
             {
               "$type": "Document",
@@ -582,12 +551,11 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Layout\\MainLayout.razor.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-13T08:34:51.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:34:51.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Layout\\NavMenu.razor",
@@ -595,8 +563,7 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T08:33:38.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:33:38.971Z"
             },
             {
               "$type": "Document",
@@ -608,21 +575,19 @@
               "RelativeToolTip": "RoatOfRussiaWebApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T08:31:37.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:31:37.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 4,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "RoatOfRussiaWebApp\\Components\\Pages\\Weather.razor",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaWebApp\\RoatOfRussiaWebApp\\Components\\Pages\\Weather.razor",
               "RelativeToolTip": "RoatOfRussiaWebApp\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T08:37:25.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:37:25.512Z"
             }
           ]
         }

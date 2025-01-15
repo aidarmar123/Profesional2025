@@ -18,7 +18,7 @@
                     <th>
                         <div class="theader">
 
-                            @day.ToString().ToCharArray()[0]
+                            @day
 
                         </div>
                     </th>
@@ -65,13 +65,9 @@
 
                                 </div>
                             </td>
-
-
-
                         }
                     }
                 </tr>
-
             }
         </tbody>
     </table>
@@ -89,7 +85,7 @@
 
     public DateTime date = DateTime.Now;
     public DateTime selectDate { get; set; }
-    public DayOfWeek[] days = (DayOfWeek[])Enum.GetValues(typeof(DayOfWeek));
+    public string[] days = new string[] { "П", "В", "С", "Ч", "П", "С", "В" };
 
 
     private DateTime lastDayOfMonth{ get; set; }
@@ -98,23 +94,11 @@
     protected override void OnInitialized()
     {
         selectDate = date;
-        var sunday = days[0];
-        for (int i = 0; i < days.Length; i++)
-        {
-            if (days.Length == i + 1)
-            {
-                days[i] = sunday;
-                continue;
-            }
-            days[i] = days[i + 1];
-        }
         Create();
 
     }
     private void Create()
     {
-       
-
         dayInMonth = DateTime.DaysInMonth(selectDate.Year, selectDate.Month);
         lastDayOfMonth = new DateTime(selectDate.Year, selectDate.Month, 1);
         dayOfWeekMonth = (int)lastDayOfMonth.DayOfWeek;

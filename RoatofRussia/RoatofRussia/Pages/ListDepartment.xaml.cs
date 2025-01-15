@@ -1,4 +1,5 @@
 ﻿using RoatofRussia.Models;
+using RoatofRussia.Windows;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,7 @@ namespace RoatofRussia.Pages
         {
             InitializeComponent();
             CreateTree();
+            LVEmployee.ItemsSource = App.Db.Employee.ToList();
 
         }
 
@@ -39,16 +41,17 @@ namespace RoatofRussia.Pages
                 {
                     Background = Brushes.LightGreen,
                     Margin = new Thickness(10),
-
+                    DataContext = department
 
                 };
+                stackPanel.MouseDown += SpOrg_MouseDown;
                 RegisterName($"d{department.Id}", stackPanel);
                 var textBlock = new TextBlock() { Text = department.Name, Margin = new Thickness(4) };
                 stackPanel.Children.Add(textBlock);
                 if (department.ParentDepartment == null)
                 {
                     First.Children.Add(stackPanel);
-
+                    GetLine(SpOrg, stackPanel);
                 }
                 else if (department.ParentDepartmentClass.ParentDepartment != null)
                 {
@@ -101,8 +104,73 @@ namespace RoatofRussia.Pages
                 line.X2 = point2.X;
                 line.Y2 = point2.Y;
             };
-            Grid.SetRowSpan(line, 3);
+            Grid.SetRowSpan(line, 4);
             MainCanvas.Children.Add(line);
+        }
+
+        private void SpOrg_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            foreach (var item in MainCanvas.Children)
+            {
+                if (item is StackPanel sp)
+                    sp.Background = Brushes.LightGreen;
+            }
+
+            foreach (var item in First.Children)
+            {
+                if (item is StackPanel sp)
+                    sp.Background = Brushes.LightGreen;
+            }
+            foreach (var item in Second.Children)
+            {
+                if (item is StackPanel sp)
+                    sp.Background = Brushes.LightGreen;
+            }
+            foreach (var item in Theard.Children)
+            {
+                if (item is StackPanel sp)
+                    sp.Background = Brushes.LightGreen;
+            }
+
+            StackPanel selectSp = (sender as StackPanel);
+            selectSp.Background = Brushes.Green;
+
+          
+                var selectDepart = selectSp.DataContext as Department;
+                if(selectDepart == null)
+                {
+                    LVEmployee.ItemsSource = App.Db.Employee.ToList();
+                    return;
+                }
+
+                var employees = App.Db.Employee.ToList();
+                var employeesList = employees.Where(x => x.Position.DepartmentId == selectDepart.Id).ToList();
+                foreach (var departmentSecond in selectDepart.Departments)
+                {
+                    employeesList.AddRange(employees.Where(x => x.Position.DepartmentId == departmentSecond.Id).ToList());
+                    
+                    foreach (var department in departmentSecond.Departments)
+                    {
+                        employeesList.AddRange(employees.Where(x => x.Position.DepartmentId == department.Id).ToList());
+
+                    }
+
+
+                }
+                LVEmployee.ItemsSource = employeesList;
+        
+            
+           
+
+
+        }
+
+        private void LVEmployee_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if(LVEmployee.SelectedItem is Employee employee)
+            {
+                new CardEmployee(employee).ShowDialog();
+            }
         }
     }
 }

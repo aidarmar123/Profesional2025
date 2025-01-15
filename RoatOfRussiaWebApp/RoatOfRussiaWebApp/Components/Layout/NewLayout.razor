@@ -3,7 +3,7 @@
 
 
 <div class="text">
-    <img class="imgNews" src="@newsItem.image" @onload='@(()=>newsItem.image="/assets/photoNews.jpg")' @onerror='@(()=>newsItem.image="/assets/photoNews.jpg")' />
+    <img class="imgNews" src="@newsItem.image" @onerror='@(()=>newsItem.image="/assets/photoNews.jpg")' />
     
     <div class="description">
         <h3>@newsItem.title</h3>

@@ -7,25 +7,56 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ListDepartment">
-   
-    <StackPanel>
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalAlignment="Center">
-            <Grid  x:Name="MainCanvas">
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <WrapPanel x:Name="First" Margin="20" Grid.Row="0" HorizontalAlignment="Center"/>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled"  Margin="10">
+                <Grid  x:Name="MainCanvas">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                <StackPanel x:Name="SpOrg" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                            Background="LightGreen"
+                            MouseDown="SpOrg_MouseDown">
+                    <TextBlock Text="Дороги России" Margin="10"/>
+                </StackPanel>
+
+                <WrapPanel x:Name="First"  Grid.Row="1" HorizontalAlignment="Center"/>
 
 
-                <WrapPanel x:Name="Second"  Margin="20"  Grid.Row="1" HorizontalAlignment="Center"/>
+                <WrapPanel x:Name="Second"   Grid.Row="2" HorizontalAlignment="Center" />
 
-                <WrapPanel x:Name="Theard"  Margin="20"  Grid.Row="2" HorizontalAlignment="Center"/>
-            </Grid>
+                    <WrapPanel x:Name="Theard"  Grid.Row="3" HorizontalAlignment="Center" />
+                </Grid>
 
-        </ScrollViewer>
+            </ScrollViewer>
+        <ListView x:Name="LVEmployee" Grid.Column="1" Margin="10" SelectionChanged="LVEmployee_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Background="LightGreen">
+                        <TextBlock Text="{Binding DepartmentPosition }"/>
+                        <TextBlock Text="{Binding FullName}"/>
+                        <TextBlock Text="{Binding PhoneEmail}"/>
+                        <TextBlock Text="{Binding Cabinet.Name}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Setter Property="HorizontalContentAlignment"
+                            Value="Stretch"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            
+        </ListView>
 
         
-    </StackPanel>
+       
+    </Grid>
 </Page>
