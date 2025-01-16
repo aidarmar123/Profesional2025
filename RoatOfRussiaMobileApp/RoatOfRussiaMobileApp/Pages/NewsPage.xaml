@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoatOfRussiaMobileApp.Pages.NewsPage"
+             Title="NewsPage">
+    <ScrollView>
+
+        <VerticalStackLayout>
+
+            <CarouselView x:Name="CVNews" >
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame>
+                            <StackLayout>
+                                <Frame CornerRadius="100" HorizontalOptions="Center" HeightRequest="250" WidthRequest="250">
+
+                                    <Image Source="{Binding image}"   Aspect="Fill"/>
+
+                                </Frame>
+                                <Label Text="{Binding title}" HorizontalOptions="Center" Margin="10" FontSize="20"/>
+                                <Label Text="{Binding description}"/>
+
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

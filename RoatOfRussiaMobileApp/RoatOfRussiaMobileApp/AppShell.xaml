@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="RoatOfRussiaMobileApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:RoatOfRussiaMobileApp"
+    xmlns:pages="clr-namespace:RoatOfRussiaMobileApp.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="RoatOfRussiaMobileApp">
+
+    <TabBar>
+        <Tab>
+            <ShellContent
+ Title="Новости"
+ ContentTemplate="{DataTemplate pages:NewsPage}"
+ Route="NewsPage" />
+            <ShellContent
+ Title="События"
+ ContentTemplate="{DataTemplate pages:EventsPage}"
+ Route="EventsPage" />
+        </Tab>
+    </TabBar>
+</Shell>

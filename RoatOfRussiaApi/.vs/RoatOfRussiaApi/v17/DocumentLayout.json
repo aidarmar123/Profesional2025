@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiaapi\\roatofrussiaapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiaapi\\roatofrussiaapi\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiaapi\\roatofrussiaapi\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiaapi\\roatofrussiaapi\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\modeldata.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\modeldata.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiaapi\\roatofrussiaapi\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,14 +51,6 @@
       "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\typematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\typematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\modeldata.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\modeldata.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\statusmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,10 +82,6 @@
       "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\sectionmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\cabinet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\cabinet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -76,10 +92,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|solutionrelative:roatofrussiaapi\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC014092-1CBB-4F22-A0DC-B190EE690CCB}|RoatOfRussiaApi\\RoatOfRussiaApi.csproj|C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\roatofrussiaapi\\controllers\\materialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -157,11 +169,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 18,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "favicon.ico - Icon [16x16, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\favicon.ico",
+              "RelativeDocumentMoniker": "RoatOfRussiaApi\\favicon.ico",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\favicon.ico - Icon [16x16, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "RelativeToolTip": "RoatOfRussiaApi\\favicon.ico - Icon [16x16, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-01-16T13:43:20.687Z",
+              "EditorCaption": " - Icon [16x16, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Global.asax.cs",
+              "RelativeDocumentMoniker": "RoatOfRussiaApi\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Global.asax.cs",
+              "RelativeToolTip": "RoatOfRussiaApi\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:43:18.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\packages.config",
+              "RelativeDocumentMoniker": "RoatOfRussiaApi\\packages.config",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\packages.config",
+              "RelativeToolTip": "RoatOfRussiaApi\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-16T13:43:16.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Web.config",
+              "RelativeDocumentMoniker": "RoatOfRussiaApi\\Web.config",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Web.config",
+              "RelativeToolTip": "RoatOfRussiaApi\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-16T13:43:05.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DocumentsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\DocumentsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\DocumentsController.cs",
@@ -174,19 +241,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NewsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\NewsController.cs",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\NewsController.cs",
               "RelativeToolTip": "RoatOfRussiaApi\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T09:11:03.572Z"
+              "WhenOpened": "2025-01-14T09:11:03.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "StatusMaterial.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\StatusMaterial.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\StatusMaterial.cs",
@@ -198,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "StatusEvent.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\StatusEvent.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\StatusEvent.cs",
@@ -210,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "SectionMaterial.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\SectionMaterial.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\SectionMaterial.cs",
@@ -222,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "Position.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\Position.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\Position.cs",
@@ -230,11 +298,12 @@
               "RelativeToolTip": "RoatOfRussiaApi\\Models\\Position.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAUwB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T12:29:49.211Z"
+              "WhenOpened": "2025-01-13T12:29:49.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Absence.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\Absence.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\Absence.cs",
@@ -246,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "ModelData.tt",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\ModelData.tt",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\ModelData.tt",
@@ -254,11 +323,12 @@
               "RelativeToolTip": "RoatOfRussiaApi\\Models\\ModelData.tt",
               "ViewState": "AgIAAJ4BAAAAAAAAAAD4v7EBAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-13T11:49:17.494Z"
+              "WhenOpened": "2025-01-13T11:49:17.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\EmployeesController.cs",
@@ -270,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "EventEmployee.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\EventEmployee.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\EventEmployee.cs",
@@ -282,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "WorkingCalendarsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\WorkingCalendarsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\WorkingCalendarsController.cs",
@@ -294,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\HomeController.cs",
@@ -306,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\Event.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\Event.cs",
@@ -318,19 +388,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\EventsController.cs",
               "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\EventsController.cs",
               "RelativeToolTip": "RoatOfRussiaApi\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T08:18:28.02Z"
+              "WhenOpened": "2025-01-13T08:18:28.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "TypeEvent.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\TypeEvent.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\TypeEvent.cs",
@@ -342,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "TypeMaterial.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\TypeMaterial.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\TypeMaterial.cs",
@@ -354,19 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\Department.cs",
-              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\Department.cs",
-              "RelativeToolTip": "RoatOfRussiaApi\\Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T12:28:36.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ModelData.edmx.diagram",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\ModelData.edmx.diagram",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\ModelData.edmx.diagram",
@@ -378,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "postmancollection.json",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\postmancollection.json",
               "RelativeDocumentMoniker": "..\\..\\postmancollection.json",
@@ -390,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Cabinet.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\Cabinet.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\Cabinet.cs",
@@ -402,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "VacationsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\VacationsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\VacationsController.cs",
@@ -414,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "TypeMaterialsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\TypeMaterialsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\TypeMaterialsController.cs",
@@ -426,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "TypeEventsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\TypeEventsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\TypeEventsController.cs",
@@ -438,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "StatusMaterialsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\StatusMaterialsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\StatusMaterialsController.cs",
@@ -450,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "MaterialsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\MaterialsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\MaterialsController.cs",
@@ -462,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "ModelData.Context.tt",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\ModelData.Context.tt",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\ModelData.Context.tt",
@@ -474,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\Employee.cs",
@@ -486,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "StatusEventsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\StatusEventsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\StatusEventsController.cs",
@@ -498,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "SectionMaterials1Controller.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\SectionMaterials1Controller.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\SectionMaterials1Controller.cs",
@@ -510,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "SectionMaterialsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\SectionMaterialsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\SectionMaterialsController.cs",
@@ -522,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "PositionsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\PositionsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\PositionsController.cs",
@@ -534,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "AbsencesController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\AbsencesController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\AbsencesController.cs",
@@ -546,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "EventResponsiblePersonsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\EventResponsiblePersonsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\EventResponsiblePersonsController.cs",
@@ -558,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "EventEmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\EventEmployeesController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\EventEmployeesController.cs",
@@ -570,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\DepartmentsController.cs",
@@ -582,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "CabinetsController.cs",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Controllers\\CabinetsController.cs",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Controllers\\CabinetsController.cs",
@@ -594,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "ModelData.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaApi\\RoatOfRussiaApi\\Models\\ModelData.edmx",
               "RelativeDocumentMoniker": "RoatOfRussiaApi\\Models\\ModelData.edmx",

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\pages\\newspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\pages\\newspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\service\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\service\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\pages\\eventspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\pages\\eventspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\models\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\models\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|c:\\users\\aidar\\desktop\\profesional2025\\roatofrussiamobileapp\\roatofrussiamobileapp\\pages\\eventspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EE2AF94-CC13-4616-9740-A66D1EF28471}|RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp.csproj|solutionrelative:roatofrussiamobileapp\\pages\\eventspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Pages\\NewsPage.xaml",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\Pages\\NewsPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Pages\\NewsPage.xaml*",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\Pages\\NewsPage.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T15:07:06.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Service\\NetManager.cs",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\Service\\NetManager.cs",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Service\\NetManager.cs",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\Service\\NetManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T15:02:54.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Pages\\EventsPage.xaml.cs",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\Pages\\EventsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Pages\\EventsPage.xaml.cs",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\Pages\\EventsPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wC8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:56:36.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:54:30.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:54:29.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\AppShell.xaml",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T14:53:52.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:53:45.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Absence.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Models\\Absence.cs",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\Models\\Absence.cs",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Models\\Absence.cs",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\Models\\Absence.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:53:36.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Pages\\EventsPage.xaml",
+              "RelativeDocumentMoniker": "RoatOfRussiaMobileApp\\Pages\\EventsPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\Desktop\\Profesional2025\\RoatOfRussiaMobileApp\\RoatOfRussiaMobileApp\\Pages\\EventsPage.xaml",
+              "RelativeToolTip": "RoatOfRussiaMobileApp\\Pages\\EventsPage.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T14:53:25.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
