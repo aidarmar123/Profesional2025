@@ -3,7 +3,7 @@
 1. Скачать библиотеку [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.WebApi)
 
 2. К контроллерам добавить описание
-```
+```csharp
   [SwaggerResponse(HttpStatusCode.OK, Description = "Возращает все конкретный пропуск/отгул")]
   [SwaggerResponse(HttpStatusCode.NotFound, Description ="Возращает когда не найден прогул")]
 
