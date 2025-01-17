@@ -18,5 +18,5 @@
      return Ok(absence);
   }
    ```
-3. Перети по ссылке ``` "https://localhost:63452//swagger/docs/v1" ```
+3. Перети по ссылке "https://localhost:63452//swagger/docs/v1"
 4. Скопировать контент страницы в json файл 
