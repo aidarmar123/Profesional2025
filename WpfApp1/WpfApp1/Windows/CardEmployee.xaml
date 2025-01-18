@@ -1,0 +1,134 @@
+﻿<Window x:Class="WpfApp1.Windows.CardEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Windows"
+        mc:Ignorable="d"
+        Title="CardEmployee" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer>
+            <StackPanel>
+                <Button x:Name="BEdit" Click="BEdit_Click" HorizontalAlignment="Right" Content="✏"/>
+                <StackPanel x:Name="SpCard" IsEnabled="False">
+                    <TextBlock Text="Фамилия"/>
+                    <TextBox Text="{Binding Surname}"/>
+                    
+                     <TextBlock Text="Имя"/>
+                    <TextBox Text="{Binding Name}"/>
+                    
+                     <TextBlock Text="Отчество"/>
+                    <TextBox Text="{Binding Patronic}"/>
+
+                    <TextBlock Text="мобильный телефон "/>
+                    <TextBox Text="{Binding HomePhone}" MaxLength="20"/>
+
+                    <TextBlock Text="день рождения"/>
+                    <DatePicker Text="{Binding Birthday}"/>
+
+                    <TextBlock Text="структурное подразделение "/>
+                    <ComboBox SelectedItem="{Binding Position.Department}"
+                              x:Name="CbDepartments"
+                              SelectionChanged="CbDepartments_SelectionChanged"
+                              DisplayMemberPath="Name"/>
+
+                    <TextBlock Text="должность "/>
+                    <ComboBox SelectedItem="{Binding Position}"
+                              x:Name="CbPosition"
+                              DisplayMemberPath="Name"/>
+
+                    <TextBlock Text="непосредственный руководитель "/>
+                    <ComboBox SelectedItem="{Binding Position.Department.Director}"
+                              x:Name="CbDirector"
+                              DisplayMemberPath="FullName"/>
+
+                    <TextBlock Text="помощник"/>
+                    <ComboBox SelectedItem="{Binding Position.Department.Assistent}"
+                              x:Name="CbAssistent"
+                              DisplayMemberPath="FullName"/>
+
+
+                    <TextBlock Text="рабочий телефон "/>
+                    <TextBox Text="{Binding WorkPhone}" MaxLength="20"/>
+                    <TextBlock Text=""/>
+                    <TextBox Text="{Binding Email}"/>
+
+                    <TextBlock Text="кабинет "/>
+                    <ComboBox SelectedItem="{Binding Cabinet}"
+          x:Name="CbCabinet"
+          DisplayMemberPath="Name"/>
+
+
+                    <TextBlock Text="прочая информация"/>
+                    <TextBox Text="{Binding AdditionalInformation}"/>
+
+                    <Button x:Name="BSave"
+                            Content="Сохранить"
+                            Click="BSave_Click"/>
+                    <Button x:Name="BDelete"
+                            Content="Уволить"
+                            Click="BDelete_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="1">
+            <StackPanel>
+                <TextBlock Text="Обучение"/>
+                <ListView x:Name="LVLearning">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Event.DateTimeStart}"/>
+                                <TextBlock Text="{Binding Event.DateTimeEnd}"/>
+                                <TextBlock Text="{Binding Event.ShortDescription}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <TextBlock Text="Отгулы"/>
+                <ListView x:Name="LVAdsence">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Event.DateTimeStart}"/>
+                                <TextBlock Text="{Binding Event.DateTimeEnd}"/>
+                                <TextBlock Text="{Binding Event.ShortDescription}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <TextBlock Text="Отпуска"/>
+                <ListView x:Name="LVVacation">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Event.DateTimeStart}"/>
+                                <TextBlock Text="{Binding Event.DateTimeEnd}"/>
+                                <TextBlock Text="{Binding Event.ShortDescription}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackPanel x:Name="SpAddEvent">
+                    <TextBlock Text="тип события "/>
+                    <ComboBox SelectedItem="{Binding TypeEvent}"
+                              DisplayMemberPath="Name"
+                              x:Name="CbTypeEvent"/>
+                    <TextBlock Text="дата начала "/>
+                    <DatePicker SelectedDate="{Binding DateTimeStart}"/>
+                    <TextBlock Text="дата окончания "/>
+                    <DatePicker SelectedDate="{Binding DateTimeEnd}"/>
+                    <TextBlock Text="краткое обоснование "/>
+                    <TextBox Text="{Binding ShortDescription}"/>
+                    <Button x:Name="BaddEvebt"
+                            Click="BaddEvebt_Click"
+                            Content="Добавить"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

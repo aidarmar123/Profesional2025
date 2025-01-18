@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp1.Windows.AbrovedDelete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Windows"
+        mc:Ignorable="d"
+        Title="AbrovedDelete" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="Уволить сотрудника?" FontSize="30" HorizontalAlignment="Center"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Yes"
+                       Content="Да"
+                       Click="Yes_Click"/>
+                <Button x:Name="No"
+                        Grid.Column="1"
+                       Content="Нет"
+                       Click="No_Click"/>
+                
+            </Grid>
+            
+        </StackPanel>
+    </Grid>
+</Window>

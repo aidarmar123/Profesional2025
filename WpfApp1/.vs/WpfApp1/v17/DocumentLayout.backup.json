@@ -1,0 +1,589 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\windows\\cardemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\windows\\cardemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\services\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\services\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\windows\\cardemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\windows\\cardemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\services\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\services\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\eventemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\eventemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\windows\\abroveddelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\windows\\abroveddelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\windows\\abroveddelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\windows\\abroveddelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\pages\\listemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\listemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\pages\\listemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\pages\\listemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\partials\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\partials\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\partials\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\partials\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\metadata\\metaemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\metadata\\metaemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\services\\validobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\services\\validobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\primarypersonsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\primarypersonsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\cabinet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\cabinet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\workingcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\workingcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\typematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\typematerial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\typeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\typeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\statusmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\statusmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\statusevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\statusevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|c:\\users\\aidar\\source\\repos\\wpfapp1\\wpfapp1\\models\\positionmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E9B592-53B8-47D8-A7BB-19B45D1291DC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\positionmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Windows\\AbrovedDelete.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Windows\\AbrovedDelete.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Windows\\AbrovedDelete.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Windows\\AbrovedDelete.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Windows\\AbrovedDelete.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:29:11.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AbrovedDelete.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Windows\\AbrovedDelete.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Windows\\AbrovedDelete.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Windows\\AbrovedDelete.xaml",
+              "RelativeToolTip": "WpfApp1\\Windows\\AbrovedDelete.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T16:27:16.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardEmployee.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Windows\\CardEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Windows\\CardEmployee.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Windows\\CardEmployee.xaml.cs*",
+              "RelativeToolTip": "WpfApp1\\Windows\\CardEmployee.xaml.cs*",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAYwIYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:04:09.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Partials\\Department.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Partials\\Department.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Partials\\Department.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Partials\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:45:04.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\App.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:36:35.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListEmployee.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Pages\\ListEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\ListEmployee.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Pages\\ListEmployee.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Pages\\ListEmployee.xaml.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAawJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:36:30.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListEmployee.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Pages\\ListEmployee.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Pages\\ListEmployee.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Pages\\ListEmployee.xaml",
+              "RelativeToolTip": "WpfApp1\\Pages\\ListEmployee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T15:32:33.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardEmployee.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Windows\\CardEmployee.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Windows\\CardEmployee.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Windows\\CardEmployee.xaml",
+              "RelativeToolTip": "WpfApp1\\Windows\\CardEmployee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T15:32:18.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MetaEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\MetaData\\MetaEmployee.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\MetaData\\MetaEmployee.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\MetaData\\MetaEmployee.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\MetaData\\MetaEmployee.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA6wDMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:29:00.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ValidObject.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Services\\ValidObject.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Services\\ValidObject.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Services\\ValidObject.cs",
+              "RelativeToolTip": "WpfApp1\\Services\\ValidObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:26:54.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Services\\NetManager.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Services\\NetManager.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Services\\NetManager.cs",
+              "RelativeToolTip": "WpfApp1\\Services\\NetManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:17:45.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WorkingCalendar.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\WorkingCalendar.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\WorkingCalendar.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\WorkingCalendar.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\WorkingCalendar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:04:18.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TypeMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\TypeMaterial.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\TypeMaterial.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\TypeMaterial.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\TypeMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:04:15.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TypeEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\TypeEvent.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\TypeEvent.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\TypeEvent.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\TypeEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:04:13.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StatusMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\StatusMaterial.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\StatusMaterial.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\StatusMaterial.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\StatusMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:04:10.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StatusEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\StatusEvent.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\StatusEvent.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\StatusEvent.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\StatusEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:04:07.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Resume.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Resume.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Resume.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Resume.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Resume.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAASwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:04:05.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PositionMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\PositionMaterial.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\PositionMaterial.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\PositionMaterial.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\PositionMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:04:02.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PrimaryPersonsEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\PrimaryPersonsEvent.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\PrimaryPersonsEvent.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\PrimaryPersonsEvent.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\PrimaryPersonsEvent.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADgvzMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:03:59.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Position.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Position.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Position.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAjwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:03:56.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Material.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Material.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Material.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Material.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAMwFIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:03:54.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\EventEmployee.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\EventEmployee.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\EventEmployee.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\EventEmployee.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAArwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:03:52.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Comments.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Comments.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Comments.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Comments.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Comments.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAjwCwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:03:40.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Cabinet.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Cabinet.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Cabinet.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Cabinet.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Cabinet.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwBUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:03:10.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Services\\DbContext.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Services\\DbContext.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Services\\DbContext.cs",
+              "RelativeToolTip": "WpfApp1\\Services\\DbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:39:03.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T14:57:26.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:57:25.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "3d9668b9-05d8-4557-9998-54e9698f1dc9",
+        "Display": 1,
+        "X": -17,
+        "Y": 166,
+        "Width": 1528,
+        "Height": 705,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Partials\\Employee.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Partials\\Employee.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Partials\\Employee.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Partials\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:44:44.189Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "2a5482ec-d261-4733-90f8-966dde7cf958",
+        "Display": 1,
+        "X": 268,
+        "Y": 428,
+        "Width": 1528,
+        "Height": 705,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Employee.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Employee.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAADcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:03:46.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "86c22604-841d-4896-a643-1c5f598f3385",
+        "Display": 1,
+        "X": 255,
+        "Y": 170,
+        "Width": 1528,
+        "Height": 705,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\WpfApp1\\WpfApp1\\Models\\Event.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Event.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAArwEsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:03:49.341Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
