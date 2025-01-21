@@ -28,12 +28,6 @@ public partial class EventsPage : ContentPage
     {
         var _event = (sender as Button).BindingContext as Event;
        
-        
-     
-        
-
-        
-
         var icalEvent = new CalendarEvent
         {
             Summary = _event.Name,

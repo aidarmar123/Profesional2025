@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoatOfRussiaMobileApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+42d0aab1490515e917dce6a07416919780dd4d95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a1e8fb0568d6f06c9dde0b9c334b50f53d8e32e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoatOfRussiaMobileApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoatOfRussiaMobileApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

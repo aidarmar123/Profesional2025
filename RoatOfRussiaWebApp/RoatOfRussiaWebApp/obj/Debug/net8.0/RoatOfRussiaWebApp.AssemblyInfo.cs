@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoatOfRussiaWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e71f75ba0994fcd2350cdc2f1bf84068c9c66b9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49fcd18fced5057fb34e05576525e38826e52782")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoatOfRussiaWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoatOfRussiaWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
