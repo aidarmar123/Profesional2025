@@ -2,6 +2,18 @@
 ![image](https://github.com/user-attachments/assets/2d73b376-fabe-4c29-8878-70efcab51df6)
 
 ## Новости (Rss-feed)
+### Таймер
+```csharp
+Timer timer = new Timer(GetNews,0,0,15000)
+```
+#### Обновление страницы
+```csharp
+await InvokeAsync(()=>
+{
+News = news;
+StateHasChanged();
+});
+```
 ### Получение новоcтей 
 ```csharp
 XDocument document = XDocument.Load(@"C:\Users\Aidar\Desktop\Profesional2025\RoatOfRussiaWebApp\RoatOfRussiaWebApp\Data\news_response.xml");
