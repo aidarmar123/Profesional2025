@@ -249,3 +249,12 @@ private void GenerateFile()
     }
 }
 ```
+
+### Стили для адаптивной верстки
+```
+@@media(max-width:450px)
+{
+.newsItems{
+flex-direction:column,1;
+}
+}
