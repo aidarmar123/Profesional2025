@@ -164,4 +164,15 @@ bool IsValidEmail(string email)
 ```
 
 ## Валидация Телефона
-
+```csharp
+bool IsValidPhone(string phone)
+{
+    var listValidChar = new List<char>() { '+', '(', ')', '-', ' ', '#' };
+    foreach (char cPhone in phone)
+    {
+        if(!char.IsDigit(cPhone) && !listValidChar.Contains(cPhone))
+            return false;
+    }
+    return true;
+}
+```
