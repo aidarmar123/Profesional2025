@@ -139,3 +139,29 @@ XAML
      RefreshList();
  }
 ```
+
+
+## Валидация Email
+```csharp
+bool IsValidEmail(string email)
+{
+    email = email.Replace(" ","");
+    var indexA = email.IndexOf('@');
+    var indexPoint = email.IndexOf('.');
+    
+    if(indexA == -1 || indexPoint == -1)
+        return false;
+    if(indexA > indexPoint)
+        return false;
+    if(indexA ==0)
+        return false;   
+    if(indexPoint == email.Length - 1)
+        return false;
+    if(email[indexPoint-1] == '@')
+        return false;
+    return true;
+}
+```
+
+## Валидация Телефона
+
